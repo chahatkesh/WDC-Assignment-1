@@ -280,3 +280,34 @@ p {
   filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
   transition: all 0.3s ease;
 }
+@media (max-width: 700px) {
+  .text-box h2 {
+    font-size: 32px;
+  }
+  .outlook h2 {
+    font-size: 32px;
+  }
+  .front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-box h3 {
+    font-size: 12px;
+    padding-left: 12px;
+  }
+  .img11 {
+    width: 325px;
+  }
+  .hero-btn {
+    margin-bottom: 18px;
+  }
+  .text-box {
+    padding-top: 60px;
+    padding-bottom: 12px;
+  }
+  .texthide {
+    display: none;
+  }
+}
